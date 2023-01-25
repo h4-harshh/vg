@@ -1,18 +1,18 @@
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-class test
-{
-    int x;
-    int y;
+// class test
+// {
+//     int x;
+//     int y;
 
-    public:
+//     public:
 
-    test(int a=0,int b=0)
-}
+//     test(int a=0,int b=0)
+// // };
 
-int main()
-{
+// int main()
+// {
     
-    return 0;
-}
+//     return 0;
+// }
