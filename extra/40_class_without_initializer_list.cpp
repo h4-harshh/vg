@@ -1,3 +1,5 @@
+// without initializer list
+
 #include<iostream>
 using namespace std;
 
