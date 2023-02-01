@@ -11,7 +11,7 @@ class A
     }
 };
 
-class B : public A
+class B : virtual public A
 {
     public:
 
@@ -21,7 +21,7 @@ class B : public A
     }
 };
 
-class C : public A
+class C :virtual public A
 {
     public:
    
@@ -36,7 +36,7 @@ class D : public B , public C
     public:
     D()
     {
-        cout<<" D class constructor is called"<<endl;
+        cout<<"D class constructor is called"<<endl;
     }
 };
 
