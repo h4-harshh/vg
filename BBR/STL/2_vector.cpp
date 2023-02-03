@@ -8,17 +8,17 @@ int main()
 
     vector <int> a(4,1);
     cout<<"element of vector a: ";
-    for(int i:a)
+    for(int x:a)
     {
-        cout<<a[i]<<" ";
+        cout<<x<<" ";
     }
     cout<<endl;
 
     vector <int> copy_a(a);
     cout<<"elements of copy_a vector: ";
-    for(int i:copy_a)
+    for(int x:copy_a)
     {
-        cout<<copy_a[i]<<" ";
+        cout<<x<<" ";
     }
     cout<<endl;
 
