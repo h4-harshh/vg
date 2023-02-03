@@ -68,11 +68,11 @@ int main()
     hero harsh;
     harsh.sethealth(80);
     harsh.setlevel('A');
-    harsh.name[6]="harsh";
-    harsh.setName(name);
+    // harsh.name[6]="harsh";
+    // harsh.setName(name);
 
 
-    harsh.name[0]="i";
+    // harsh.name[0]="i";
     harsh.print();
 
     hero nikhil(harsh);
