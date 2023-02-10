@@ -23,7 +23,13 @@ string winner(string arr[],int n)
             max_freq=x.second;
             winner=x.first;
         }
-
+        else
+        {
+            if(x.second==max_freq && x.first<winner)
+            {
+                winner=x.first;
+            }
+        }
         
 
     }
