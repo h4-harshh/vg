@@ -22,7 +22,7 @@ int main()
 {
     int n=6;
     int k=3;
-    int arr[6]={3,7,2,5,12,30};
+    int arr[6]={3,7,2,5,12,31};
 
     cout<<max(arr,n,k);
 
